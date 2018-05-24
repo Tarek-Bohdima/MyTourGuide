@@ -3,4 +3,19 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the museums category -->
+    <color name="category_museums">#FD8E09</color>
+
+    <!-- Background color for the parks  category -->
+    <color name="category_parks">#379237</color>
+
+    <!-- Background color for the restaurants category -->
+    <color name="category_restaurants">#8800A0</color>
+
+    <!-- Background color for the shopping category -->
+    <color name="category_shopping">#16AFCA</color>
 </resources>

@@ -48,8 +48,14 @@ public class Attraction {
      */
     private int mImageResourceId;
 
+
+    public Attraction (int attractionNameId, int imageResourceId){
+        mAttractionNameId = attractionNameId;
+        mImageResourceId = imageResourceId;
+    }
+
     /**
-     * Constructor to Create Attraction Object for Museums, Restaurants, and Shopping Malls.
+     * Constructor to Create Attraction Object for MuseumsFragment, Restaurants, and Shopping Malls.
      *
      * @param attractionNameId is th String Resource ID for Name of the Attraction.
      * @param descriptionId is the String Resource ID for Description for the Attraction.

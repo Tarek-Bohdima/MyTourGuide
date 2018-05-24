@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MyTourGuide</string>
+
+    <!-- Category name for the vocabulary words for museums [CHAR LIMIT=20] -->
+    <string name="museums">Museums</string>
+
+    <string name="museum_antipa">Antipa</string>
+    <string name="museum_village">Village</string>
+    <string name="old_town">Old Town</string>
+    <string name="description_antipa">1834 (November)
+The Museum was established on November 3rd 1834, at the initiative of the brother of the King Alexandru Ghica,\n
+        the Great Count Mihalache Ghica, who donated important collections,\n
+        including Greek, Roman and Byzantine coins, rock and mineral, fossils, mollusk, fish, birds \n
+        and mammals collections, as well as works of art. Although it was first conceived as \n
+        a natural history cabinet, the museum became a mixed institution, harbouring antiquities,\n
+        old paintings and natural curiosities. Although it was conceived as natural history cabinet,\n
+        the museum became a mixed institution, harbouring antiquities, old paintings and natural curiosities.</string>
 </resources>
