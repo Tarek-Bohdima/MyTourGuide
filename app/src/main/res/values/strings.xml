@@ -2,7 +2,7 @@
     <string name="app_name">MyTourGuide</string>
 
     <!-- Category name for the vocabulary words for museums [CHAR LIMIT=20] -->
-    <string name="museums">Museums</string>
+    <string name="museums_fragment">Museums</string>
 
     <string name="museum_antipa">Antipa</string>
     <string name="museum_village">Village</string>
@@ -15,4 +15,23 @@ The Museum was established on November 3rd 1834, at the initiative of the brothe
         a natural history cabinet, the museum became a mixed institution, harbouring antiquities,\n
         old paintings and natural curiosities. Although it was conceived as natural history cabinet,\n
         the museum became a mixed institution, harbouring antiquities, old paintings and natural curiosities.</string>
+    <string name="content_description">Image for the attraction in the list</string>
+    <string name="restaurants_fargment">Restaurants</string>
+    <string name="restaurant_lacrimi">Lacrimi si Sfinti</string>
+    <string name="restaurant_karamna">Karamna</string>
+    <string name="restaurant_trattoria">Trattoria Il Villagio</string>
+    <string name="parks_Fragment">Parks</string>
+    <string name="park_ior">Park I.O.R.</string>
+    <string name="park_hearastrau">Park Herastrau</string>
+    <string name="lake_snagov">Lake Snagov</string>
+    <string name="shopping_fragment">Shopping</string>
+    <string name="afi">AFI Cotroceni Mall</string>
+    <string name="promenada">Promenada Mall</string>
+    <string name="parklake">ParkLake Mall</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

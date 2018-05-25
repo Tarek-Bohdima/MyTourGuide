@@ -51,14 +51,11 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         // the image1 TextView
         imageView.setImageResource(currentAttraction.getmImageResourceId());
 
-        // Set the theme color for the list item
-        View textContainer = listItemView.findViewById(R.id.attraction_name);
-
         // Find the color that the resource ID maps to
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
 
         // Set the background color of the text container View
-        textContainer.setBackgroundColor(color);
+        attractionName.setBackgroundColor(color);
 
         // Return the whole list item layout  so that it can be shown in
         // the ListView.
