@@ -15,9 +15,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
-    /** Resource ID for the background color for this list of attractions */
+    /**
+     * Resource ID for the background color for this list of attractions
+     */
     private int mColorResourceId;
 
     private Context context = getContext();
@@ -33,11 +36,10 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         // Check if an existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
-        if ( listItemView == null){
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
-
 
 
         // Get the {@link Attraction} object located at this position in the list
@@ -55,14 +57,14 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
 
         // Find the TextView in the list_item.xml layout with the ID attraction_name.
-        TextView attractionName = (TextView)listItemView.findViewById(R.id.attraction_name);
+        TextView attractionName = (TextView) listItemView.findViewById(R.id.attraction_name);
 
         // Get the Attraction name from the currentAttraction object and set this text on
         // the attraction_name TextView
         attractionName.setText(nameId);
 
         // Find the ImageView in the list_item.xml layout with the ID image1.
-        ImageView imageView = (ImageView)listItemView.findViewById(R.id.image1);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image1);
 
         // Get the Attraction image from the currentAttraction object and set this text on
         // the image1 TextView
@@ -79,13 +81,13 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         Bundle bundle = new Bundle();
         bundle.putInt("NAME", nameId);
-        bundle.putInt("DESCRIPTION",descriptionId);
-        bundle.putInt("WEBSITE",websiteId);
-        bundle.putInt("PHONE",phoneId);
-        bundle.putInt("BUSINESS",businessHoursId);
-        bundle.putDouble("LONGITUDE",longitudeId);
-        bundle.putDouble("LATITUDE",latitudeId);
-        bundle.putInt("IMAGE",imageResourceId);
+        bundle.putInt("DESCRIPTION", descriptionId);
+        bundle.putInt("WEBSITE", websiteId);
+        bundle.putInt("PHONE", phoneId);
+        bundle.putInt("BUSINESS", businessHoursId);
+        bundle.putDouble("LONGITUDE", longitudeId);
+        bundle.putDouble("LATITUDE", latitudeId);
+        bundle.putInt("IMAGE", imageResourceId);
 
         detailsIntent.putExtras(bundle);
 

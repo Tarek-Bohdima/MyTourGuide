@@ -1,6 +1,5 @@
 package com.example.android.mytourguide;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -10,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,7 +24,7 @@ public class MuseumsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.attraction_list,container,false);
+        View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
         // to convert from String(in string.xml under res) to double
         // (https://stackoverflow.com/questions/5769669/convert-string-to-double-in-java)
@@ -39,16 +39,16 @@ public class MuseumsFragment extends Fragment {
 
         /** Create a list of Attraction object */
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction(R.string.museum_antipa,R.string.description_antipa,R.string.website_antipa,
+        attractions.add(new Attraction(R.string.museum_antipa, R.string.description_antipa, R.string.website_antipa,
                 R.string.phone_antipa, R.string.business_hours_antipa, latitudeAntipa, longitudeAntipa, R.drawable.antipa));
-        attractions.add(new Attraction(R.string.museum_village,R.string.description_village,R.string.website_village,
-                R.string.phone_village, R.string.business_hours_village,latitudeVillage, longitudeVillage, R.drawable.village_museum));
-        attractions.add(new Attraction(R.string.old_town,R.string.description_old_town,R.string.website_old_town,
-                R.string.phone_old_town,R.string.business_hours_old_town,latitudeOldTown,longitudeOldTown, R.drawable.old_town));
+        attractions.add(new Attraction(R.string.museum_village, R.string.description_village, R.string.website_village,
+                R.string.phone_village, R.string.business_hours_village, latitudeVillage, longitudeVillage, R.drawable.village_museum));
+        attractions.add(new Attraction(R.string.old_town, R.string.description_old_town, R.string.website_old_town,
+                R.string.phone_old_town, R.string.business_hours_old_town, latitudeOldTown, longitudeOldTown, R.drawable.old_town));
 
-        AttractionAdapter adapter = new AttractionAdapter(getActivity(),attractions,R.color.category_museums);
+        AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.category_museums);
 
-        ListView listView = (ListView)rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 

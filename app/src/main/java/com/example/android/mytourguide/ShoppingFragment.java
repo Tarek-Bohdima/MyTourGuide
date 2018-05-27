@@ -1,6 +1,5 @@
 package com.example.android.mytourguide;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -10,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -25,7 +25,7 @@ public class ShoppingFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.attraction_list,container,false);
+        View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
         double latitudeAfi = Double.parseDouble(getString(R.string.latitude_afi));
         double longitudeAfi = Double.parseDouble(getString(R.string.longitude_afi));
@@ -44,12 +44,12 @@ public class ShoppingFragment extends Fragment {
                 R.string.phone_promenada, R.string.business_hours_promenada, latitudePromenada, longitudePromenada,
                 R.drawable.promenada));
         attractions.add(new Attraction(R.string.parklake, R.string.description_parklake, R.string.website_parklake,
-                R.string.phone_parklake, R.string.business_hours_parklake,latitudeParklake,longitudeParklake,
+                R.string.phone_parklake, R.string.business_hours_parklake, latitudeParklake, longitudeParklake,
                 R.drawable.parklake));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.category_shopping);
 
-        ListView listView = (ListView)rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
