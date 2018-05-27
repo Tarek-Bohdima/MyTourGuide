@@ -1,5 +1,7 @@
 package com.example.android.mytourguide;
 
+
+
 /**
  * {@Link Attraction} represent the Attraction or site or location or place that the user wants
  * to know about with this guide.
@@ -49,10 +51,8 @@ public class Attraction {
     private int mImageResourceId;
 
 
-    public Attraction (int attractionNameId, int imageResourceId){
-        mAttractionNameId = attractionNameId;
-        mImageResourceId = imageResourceId;
-    }
+
+
 
     /**
      * Constructor to Create Attraction Object for MuseumsFragment, Restaurants, and Shopping Malls.
@@ -62,22 +62,25 @@ public class Attraction {
      * @param websiteId is the String Resource ID for Website address.
      * @param phoneId is the  String Resource ID for phone number.
      * @param businessHoursId is the String Resource ID for Hours of Business.
-     * @param longitudeId is the double longitude location on map.
      * @param latitudeId is the double latitude location on map.
+     * @param longitudeId is the double longitude location on map.
      * @param imageResourceId is the Image resource ID for the Attraction.
      */
 
     public Attraction (int attractionNameId, int descriptionId, int websiteId, int phoneId, int businessHoursId,
-                       double longitudeId, double latitudeId, int imageResourceId){
+                       double latitudeId, double longitudeId, int imageResourceId){
 
         mAttractionNameId = attractionNameId;
         mDescriptionId = descriptionId;
         mWebsiteId = websiteId;
         mPhoneId = phoneId;
         mBusinessHoursId = businessHoursId;
-        mLongitudeId = longitudeId;
         mLatitudeId = latitudeId;
+        mLongitudeId = longitudeId;
         mImageResourceId = imageResourceId;
+
+
+
     }
 
     /**
@@ -85,18 +88,18 @@ public class Attraction {
      *
      * @param attractionNameId is the String Resource ID for Name of the Attraction.
      * @param descriptionId is the String Resource ID for Description for the Attraction.
-     * @param longitudeId is the double longitude location on map.
      * @param latitudeId is the double latitude location on map.
+     * @param longitudeId is the double longitude location on map.
      * @param imageResourceId is the Image resource ID for the Attraction.
      */
 
-    public Attraction (int attractionNameId, int descriptionId, double longitudeId, double latitudeId,
+    public Attraction (int attractionNameId, int descriptionId, double latitudeId, double longitudeId,
                        int imageResourceId){
 
         mAttractionNameId = attractionNameId;
         mDescriptionId = descriptionId;
-        mLongitudeId = longitudeId;
         mLatitudeId = latitudeId;
+        mLongitudeId = longitudeId;
         mImageResourceId = imageResourceId;
     }
 
@@ -125,14 +128,14 @@ public class Attraction {
         return mBusinessHoursId;
     }
 
-    /** Return the double longitude location on map */
-    public double getmLongitudeId() {
-        return mLongitudeId;
-    }
-
     /** Return the double latitude location on map */
     public double getmLatitudeId() {
         return mLatitudeId;
+    }
+
+    /** Return the double longitude location on map */
+    public double getmLongitudeId() {
+        return mLongitudeId;
     }
 
     /** Return the Image resource ID for the Attraction*/
@@ -141,17 +144,22 @@ public class Attraction {
     }
 
     /** Return the string representation of the {@link Attraction} object */
+
+
     @Override
     public String toString() {
-        return "Attraction{" +
-                "mAttractionNameId='" + mAttractionNameId + '\'' +
-                ", mDescriptionId='" + mDescriptionId + '\'' +
-                ", mWebsiteId=" + mWebsiteId +
-                ", mPhoneId=" + mPhoneId +
-                ", mBusinessHoursId=" + mBusinessHoursId +
-                ", mLongitudeId=" + mLongitudeId +
-                ", mLatitudeId=" + mLatitudeId +
-                ", mImageResourceId=" + mImageResourceId +
-                '}';
+
+
+
+        return "\n Attraction{" +
+                "mAttractionNameId='" + getmAttractionNameId() + '\''+
+                ",   mDescriptionId='" + String.valueOf(getmDescriptionId()) + '\'' +
+                ",   mWebsiteId=" + getmWebsiteId() +
+                ", mPhoneId=" + getmPhoneId()  +
+                ",   mBusinessHoursId=" + getmBusinessHoursId() +
+                ",   mLatitudeId=" + (mLatitudeId) +
+                ", mLongitudeId=" + (mLongitudeId) +
+                ",   mImageResourceId=" + getmImageResourceId() +
+                '}' +"\n";
     }
 }

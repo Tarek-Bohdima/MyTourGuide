@@ -1,37 +1,209 @@
 <resources>
     <string name="app_name">MyTourGuide</string>
 
+
+    <string name="content_description">Image for the attraction in the list</string>
+    <string name="over_view">Overview</string>
+    <string name="map">Map</string>
+
     <!-- Category name for the vocabulary words for museums [CHAR LIMIT=20] -->
     <string name="museums_fragment">Museums</string>
-
     <string name="museum_antipa">Antipa</string>
-    <string name="museum_village">Village</string>
-    <string name="old_town">Old Town</string>
     <string name="description_antipa">1834 (November)
-The Museum was established on November 3rd 1834, at the initiative of the brother of the King Alexandru Ghica,\n
+        The Museum was established on November 3rd 1834, at the initiative of the brother of the King Alexandru Ghica,\n
         the Great Count Mihalache Ghica, who donated important collections,\n
         including Greek, Roman and Byzantine coins, rock and mineral, fossils, mollusk, fish, birds \n
         and mammals collections, as well as works of art. Although it was first conceived as \n
         a natural history cabinet, the museum became a mixed institution, harbouring antiquities,\n
         old paintings and natural curiosities. Although it was conceived as natural history cabinet,\n
         the museum became a mixed institution, harbouring antiquities, old paintings and natural curiosities.</string>
-    <string name="content_description">Image for the attraction in the list</string>
+    <string name="website_antipa">www.antipa.ro</string>
+    <string name="business_hours_antipa">Open: Tue - Sun 1 am - 8 pm (last admission 7 pm). Closed on Mondays</string>
+    <string name="phone_antipa">021  312.88.63 </string>
+    <string name="latitude_antipa">44.453158</string>
+    <string name="longitude_antipa">26.084549</string>
+
+    <string name="old_town">Old Town</string>
+    <string name="description_old_town">The Old City, as the name implies,\n
+        occupies some of Bucharest’s earliest settled ground. The oldest structures date from the 15th and 16th Centuries,\n
+        when the city edged out early centres of power – including the first capitals Curtea de Argeş and Târgovişte – to become \n
+        the main town of the principality of Wallachia (later Romania). In the 18th and 19th Centuries,\n
+        the area developed into a warren of craftsmen, plying trades like leather and metalworking.\n
+        Modern times were less kind. While the Old City thankfully survived Ceaușescu’s grandiose 1980s plan \n
+        to raze much of old Bucharest and build a new Socialist capital, the area devolved into something of a slum.\n
+        Most of the investment at the time went to the northern half of the city. Ceaușescu had little use for the historic core,\n
+        and many of the crumbling older buildings were used to house the impoverished Roma minority. \n
+        That all changed, though, once the  area’s historic and geographic value was finally fully \n
+        recognised just more than a decade ago.</string>
+    <string name="website_old_town">Not Available</string>
+    <string name="business_hours_old_town">24/7</string>
+    <string name="phone_old_town">Not Available</string>
+    <string name="latitude_old_town">44.430049</string>
+    <string name="longitude_old_town">26.101862</string>
+
+    <string name="museum_village">Village</string>
+    <string name="description_village">The Village Museum (Muzeul Satului in Romanian) is an open-air ethnographic museum \n
+        located in the Herăstrău Park (Bucharest, Romania), showcasing traditional Romanian village life. The museum extends to over 100,000 m2,\n
+        and contains 272 authentic peasant farms and houses from all over Romania.It was created in 1936 by Dimitrie Gusti, Victor Ion Popa, and Henri H. Stahl.
+        Elisabeta Palace, the current residence of the Romanian Royal Family, is located in Herăstrău Park, as an "island" inside the Village Museum,\n
+        near the Arch of Triumph ("Arcul de Triumf").</string>
+    <string name="website_village">www.muzeultaranuluiroman.ro</string>
+    <string name="business_hours_village">Open: Tue. - Sun. 10 am - 6 pm; Closed Mon.</string>
+    <string name="phone_village">021  317.96.60 </string>
+    <string name="latitude_village">44.454418</string>
+    <string name="longitude_village">26.083607</string>
+
+    <!-- Category name for the vocabulary words for restaurants [CHAR LIMIT=20] -->
+
     <string name="restaurants_fargment">Restaurants</string>
     <string name="restaurant_lacrimi">Lacrimi si Sfinti</string>
+    <string name="description_lacrimi">Lacrimi și Sfinți is an unusual romanian restaurant with a modern/contemporary kitchen.\n
+        Recipes as old as 100 years are reinterpreted and rearranged, lost flavours, invented flavours, all in one place.\n
+        Mircea Dinescu rediscovers and reinvents more than food and dishes in the Lacrimi si Sfinti kitchen,\n
+        he rediscovers and reinvents a native culinary culture almost lost, or, best case scenario,\n
+        a culture ignored for over a century. Every product in the menu is prepared with local,\n
+        organic ingredients only: the fish is fresh, the birds are free range raised, the pigs and calfs come from \n
+        individual small farms.\n
+        The restaurant set up is entirely made of reconditioned wood.  Every piece of wood in Lacrimi si Sfinti is\n
+        at least a couple of decades ol</string>
+    <string name="website_lacrimi">www.lacrimisisfinti.com</string>
+    <string name="business_hours_lacrimi">Monday: 18.30-01.00 \n
+                                        Tue, Wed, Thu: 12.30 - 01.00 \n
+                                        Fri, Sat: 12.30 - 02.30 \n
+                                        Sun: 12.30-01.00</string>
+    <string name="phone_lacrimi">+40725558286</string>
+    <string name="latitude_lacrimi">44.430582</string>
+    <string name="longitude_lacrimi">26.102841</string>
+
+
     <string name="restaurant_karamna">Karamna</string>
+    <string name="description_karamna">Karamna Restaurant gives you the flavor, color and flavor of Lebanese cuisine,\n
+        surrounded by a garden whose view is enjoying. Supervised closely by a fir tree army,\n
+        the restaurant spoils you with the variety of cold and hot meals, but also with meat or fish dishes.
+        Lebanese cuisine is known all over the world and appreciated for its aroma and refinement. \n
+        It blends European cuisine with exotic ingredients in the Middle East and Far. \n
+        Lebanese artists have raised their cuisine to the level of art, creating food chosen for their appearance,\n
+        taste and nutritional value, and many of these have become the reference points of international cuisine.</string>
+    <string name="website_karamna">www.karamna.ro</string>
+    <string name="business_hours_karamna">Monday - Sunday: 11AM – 12AM</string>
+    <string name="phone_karamna">0732 387 228 | 021 320.85.26</string>
+    <string name="latitude_karamna">44.421739</string>
+    <string name="longitude_karamna">26.131104</string>
+
+
     <string name="restaurant_trattoria">Trattoria Il Villagio</string>
+    <string name="description_trattoria">Benvenuti a Trattoria Il Villagio,\n
+        a place where friends and family gather for good times and delicious traditional Italian dishes.\n
+        Our restaurant is offering you the Italian social life in a cozy gathering place to enjoy… la bella vita.\n
+        Chef Arcangelo Pistoia was born in Puglia, somewhere near Bari and felt in love with cooking when he was only 14 years old.\n
+        His dishes are amazing and they will carry you all the way to Italy. \n
+        We provide from the best suppliers and farmers in the area to bring to your table tasty and healthy dishes\n
+        and a delicious variety of desserts. We’re inviting you to Trattoria Il Villagio for its delicious food,\n
+        for great atmosphere and for a little trip in gastronomic culture of Italy.</string>
+    <string name="website_trattoria">www.ilvillagio.ro</string>
+    <string name="business_hours_trattoria">ORARIO  12:00 – 24:00</string>
+    <string name="phone_trattoria">+40 753 500 600</string>
+    <string name="latitude_trattoria">44.443673</string>
+    <string name="longitude_trattoria">26.103241</string>
+
+
+    <!-- Category name for the vocabulary words for parks [CHAR LIMIT=20] -->
+
     <string name="parks_Fragment">Parks</string>
     <string name="park_ior">Park I.O.R.</string>
+    <string name="description_ior">Alexandru Ioan Cuza Park (also known as Titan Park or IOR Park ) is a park in Bucharest , Sector 3.\n
+        The acronym of one of the alternative names of the park, IOR , comes from the name of the Romanian Optical Enterprise , located in the neighborhood.\n
+        IOR Park Currently Alexandru Ioan Cuza Park is located in the central-eastern part of Bucharest , in the 3rd district,\n
+        within the limits of the streets Camil Ressu, Liviu Rebreanu, Câmpia Libertăţii, C-tin Brâncuşi, Baba Novac and Nicolae Grigorescu.\n
+        It is the place of recreation for the inhabitants of Titan , Dristor neighborhoods .
+        With an area of ​​approximately 85 ha, it is one of the largest parks in Bucharest. Planting the park began in 1965 and ended five years later.\n
+        Before the arrangement, the section from Baba Novac was named "Reconstructions" and the sector from Bd.Camil Ressu (formerly Ion Şulea) was called "Flax".\n
+        In this park is the Church "The Descent of the Holy Ghost" built between 1994-1996 in Maramures style.\n
+        In the park there is Lake Titan , a natural lake separated by the Liviu Rebreanu bridge in two segments called Titan 1 Lake and Titan 2 Lake.\n
+        On the lake there are five islands, called "Pensioners Island", "IOR Island", "Island of the Dogs "," Rose Island "and" Island of the Buried ".</string>
+    <string name="website_ior">Not Available</string>
+    <string name="business_hours_ior">24/7</string>
+    <string name="phone_ior">Not Available</string>
+    <string name="latitude_ior">44.425545</string>
+    <string name="longitude_ior">26.153549</string>
+
+
     <string name="park_hearastrau">Park Herastrau</string>
+    <string name="description_herastrau">Herăstrău Park (Romanian: Parcul Herăstrău) or King Michael I Park is a large park on the northern side of Bucharest, Romania,\n
+        around Lake Herăstrău, one of the lakes formed by the Colentina River.
+        The park has an area of about 187 ha, of which 74 ha is the lake. Initially, the area was full of marshes, but these were drained between 1930 and 1935, and the park was opened in 1936.\n
+        The park is divided into two zones: a rustic or natural zone (the Village Museum), which is left more or less undisturbed, and a public/'active' domain with open areas for recreation activities.\n
+        Small boats are allowed on the lake.</string>
+    <string name="website_herastrau">Not Available</string>
+    <string name="business_hours_herastrau">24/7</string>
+    <string name="phone_herastrau">Not Available</string>
+    <string name="latitude_herastrau">44.470267</string>
+    <string name="longitude_herastrau">26.082750</string>
+
+
     <string name="lake_snagov">Lake Snagov</string>
+    <string name="description_snagov">Snagov (Romanian: Lacul Snagov) is a lake in Snagov commune, about 25–30 km north of Bucharest, Romania.\n
+        It has a surface of only 5.75 km², but due to its elongated shape it stretches for about 12 km, northeast to southwest.\n
+        Lake Snagov as well as the nearby Snagov forest is a protected natural area.</string>
+    <string name="website_snagov">Not Available</string>
+    <string name="business_hours_snagov">24/7</string>
+    <string name="phone_snagov">Not Available</string>
+    <string name="latitude_snagov">44.712797</string>
+    <string name="longitude_snagov">26.166210</string>
+
+
+    <!-- Category name for the vocabulary words for shopping malls [CHAR LIMIT=20] -->
+
     <string name="shopping_fragment">Shopping</string>
     <string name="afi">AFI Cotroceni Mall</string>
+    <string name="description_afi">AFI Palace Cotroceni is a shopping mall in Bucharest, Romania. It is located in the central-western part of the city,\n
+        between the city center and two of the largest residential districts, Militari and Drumul Taberei.\n
+        \n
+        The mall has:\n
+        300 stores\n
+        1 IMAX (3-D Cinema)\n
+        20 screen cinema complex\n
+        30 fast-food and restaurants\n
+        1 hypermarket Real\n
+        kids playground\n
+        ice rink\n
+        climbing wall\n
+        water features\n
+        games &amp; entertainment\n
+        fashion\n
+        2,500 underground &amp; deck parking spaces</string>
+    <string name="website_afi">www.aficotroceni.ro</string>
+    <string name="business_hours_afi">Monday - Sunday: 10AM – 11PM</string>
+    <string name="phone_afi">031 425 7510</string>
+    <string name="latitude_afi">44.430041</string>
+    <string name="longitude_afi">26.052372</string>
+
+
     <string name="promenada">Promenada Mall</string>
+    <string name="description_promenada">Promenada Mall Bucharest is a shopping center in Romania . \n
+        It was developed by the Raiffeisen Evolution Investment Fund  and was inaugurated on October 17, 2013 ,\n
+        after an investment of 130 million euros . \n
+        Promenade is the first mall in Bucharest opened after the financial crisis of 2007-2009 ,\n
+        the construction started on January 2012 and lasted 22 months.\n
+        Flanco , Billa , Zara , H &amp; M , C &amp; A and Peek &amp; Cloppenburg are present in the shopping center .</string>
+    <string name="website_promenada">www.promenada.ro</string>
+    <string name="business_hours_promenada">Monday - Sunday: 10AM – 10PM</string>
+    <string name="phone_promenada">0730 246 246</string>
+    <string name="latitude_promenada">44.478453</string>
+    <string name="longitude_promenada">26.103542</string>
+
+
     <string name="parklake">ParkLake Mall</string>
-
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_parklake">ParkLake Shopping Center stands out as a unique shopping complex,\n
+        designed according to the latest standards of urbanism and architecture, in a natural, welcoming setting,\n
+        right next to the Titan Park and Lake.\n
+        It is designed to bring together three main concepts: nature, park and family.</string>
+    <string name="website_parklake">www.parklake.ro</string>
+    <string name="business_hours_parklake">Monday - Sunday: 10AM – 10PM</string>
+    <string name="phone_parklake">+40 757 353 014</string>
+    <string name="latitude_parklake">44.420732</string>
+    <string name="longitude_parklake">26.150040</string>
+    <string name="title_activity_maps">Map</string>
 
 
 </resources>
